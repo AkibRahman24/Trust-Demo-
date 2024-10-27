@@ -1,0 +1,136 @@
+/* Common css */
+*{margin: 0;
+padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* Common css end  */
+#topBar{
+    padding: 20px 0;
+    background: #3e3e3e;
+}
+.topBarContent{
+    display: flex;
+    justify-content: space-between;
+}
+.topBarLeft{
+    display: flex;
+    gap: 30px;
+}
+.topBarLeft p{
+    color: white;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    vertical-align: middle;
+
+}
+.topBarLeft i{
+    padding-right: 15px;
+    font-size: 15px;
+    display: inline-block;
+}
+.topBarRight a{
+    color: white;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+.topBarRight{
+    display: flex;
+    gap: 25px;
+}
+.topBarRight i{
+    padding-right: 15px;
+    font-size: 15px;
+    transition: .4s;
+}
+.topBarRight a:hover{
+    color: #f8b864;
+}
+
+.logowithMenu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    padding-top: 15px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #555555;
+    text-transform: uppercase;
+    padding: 0 30px;
+    line-height: 90px;
+    transition: .4s;
+}
+.menu ul li a:hover{
+    color: #f8b864;
+}
+
+#bannerpart{
+    
+    background: url(../images/Banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 310px;
+    padding-bottom: 430px;
+
+}
+
+.bannerContent{
+    text-align: center;
+    color: aliceblue;
+    font-family: "Roboto Slab", serif;
+    
+}
+.bannerContent h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.bannerContent h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+}
+.bannerContent p{
+    padding: 0 250px;
+    line-height: 35px;
+    padding-bottom: 50px;
+}
+.bannerContent span{
+    color: #f8b864;
+}
+
+.bannerContent a{
+    padding: 20px 50px;
+    background: #f8b864;
+    border-radius: 50px;
+    color: aliceblue;
+    transition: .4s;
+}
+.bannerContent a:hover{
+    background: aliceblue;
+    color: #f8b864;
+}
+
+
